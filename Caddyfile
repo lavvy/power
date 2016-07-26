@@ -1,6 +1,9 @@
 http://greencreate.net:2015
 
-git http://greencreate.net/lavvy/sqlbuddyweb .
+git http://greencreate.net/lavvy/sqlbuddyweb . {
+          hook /_webhook some-keys
+
+}
 
 root sqlbuddyweb
 
